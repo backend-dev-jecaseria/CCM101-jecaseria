@@ -1,7 +1,7 @@
 # Backup Script Guide
 
 ## backup.sh
-```bash
+~~~bash
 #!/bin/bash
 # Automated Backup Script for CloudNova Technologies
 
@@ -18,12 +18,15 @@ mkdir -p $BACKUP_DIR
 tar -czf $BACKUP_DIR/backup_$TIMESTAMP.tar.gz $SOURCE_DIR
 
 echo "Backup completed successfully at $TIMESTAMP!"
-```
+~~~
 
 ## What chmod +x does
-(Write 1-2 sentences in your own words: what changed on the file and why it was needed.)
+The `chmod +x backup.sh` command adds execute permission to the file. Before this, Linux treated `backup.sh` as a plain text file and showed "Permission denied". After it, the file can be run as a program with `./backup.sh`.
 
 ## Cron Expression
+~~~
+0 2 * * * /root/backup.sh
+~~~
 
 | Field | Value | Meaning |
 |-------|-------|---------|
@@ -32,6 +35,8 @@ echo "Backup completed successfully at $TIMESTAMP!"
 | Day of Month | * | Every day of the month |
 | Month | * | Every month |
 | Day of Week | * | Every day of the week |
+
+Together, this runs the backup script every night at 2:00 AM.
 
 ## Evidence
 ![Script execution](screenshots/script-execution.png)
