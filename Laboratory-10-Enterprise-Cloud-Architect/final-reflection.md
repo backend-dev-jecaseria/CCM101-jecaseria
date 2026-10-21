@@ -6,7 +6,7 @@
 
 ## My Journey
 
-In Mission 1, I started as a Junior Trainee learning basic Linux commands and what "the cloud" really means.
+In Mission 1, I started as a Junior Trainee learning basic Linux commands and what "the cloud" really means for me.
 
 In Missions 2 and 3, I built cloud infrastructure and explored more than one cloud platform. This taught me that the ideas (compute, storage, networking) stay the same even when the provider changes.
 
