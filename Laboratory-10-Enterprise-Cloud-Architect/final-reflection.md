@@ -53,4 +53,3 @@ I built a private Ghost website with a MySQL 8.0 database. Both run in Docker co
 
 I started this course typing my first Linux commands. I finished by designing, securing, automating, and defending a full stack on my own. The biggest change for me is that I no longer follow steps blindly. I now understand why each step is there.
 
-*AI disclosure: I used an AI assistant to help organize this reflection. The experiences and lessons are from my own lab work.*
