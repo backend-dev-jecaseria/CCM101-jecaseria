@@ -1,16 +1,16 @@
 # Final Reflection: From Mission 1 to Mission 10
 
-**Course:** CCM101 Cloud Computing
-**Name:** Jehiel Caseria
-**Project:** Laboratory 10, Enterprise Cloud Architect (CloudNova Ghost Stack)
+# Course: CCM101 Cloud Computing
+# Student Name: Jehiel Ezra Serapion Caseria
+# Project: Laboratory 10, Enterprise Cloud Architect (CloudNova Ghost Stack)
 
 ## My Journey
 
-In Mission 1, I started as a Junior Trainee learning basic Linux commands and what "the cloud" really means. [Add one thing you remember from Lab 1.]
+In Mission 1, I started as a Junior Trainee learning basic Linux commands and what "the cloud" really means.
 
 In Missions 2 and 3, I built cloud infrastructure and explored more than one cloud platform. This taught me that the ideas (compute, storage, networking) stay the same even when the provider changes.
 
-In Missions 4 and 5, I worked with cloud-native tools and cloud data. This is where I first used containers and learned that data has to live somewhere safe. [Add your own detail.]
+In Missions 4 and 5, I worked with cloud-native tools and cloud data. This is where I first used containers and learned that data has to live somewhere safe.
 
 In Missions 6 and 7, I moved to deployment and operations. I learned to deploy an app, watch it, and fix it when it breaks.
 
@@ -33,7 +33,6 @@ I built a private Ghost website with a MySQL 8.0 database. Both run in Docker co
 
 - The VM had no IPv4 address at first. I fixed it by using NAT and setting `dhcp4: true` in netplan.
 - The VM froze with `soft lockup` messages when it had too little RAM. I changed it to 4096 MB RAM and 2 CPUs.
-- [Add any other problem you faced, such as a UFW or SSH issue.]
 
 ## What I Learned
 
@@ -52,6 +51,6 @@ I built a private Ghost website with a MySQL 8.0 database. Both run in Docker co
 
 ## Closing
 
-I started this course typing my first Linux commands. I finished by designing, securing, automating, and defending a full stack on my own. The biggest change for me is that I no longer follow steps blindly. I now understand why each step is there. [Add one personal sentence.]
+I started this course typing my first Linux commands. I finished by designing, securing, automating, and defending a full stack on my own. The biggest change for me is that I no longer follow steps blindly. I now understand why each step is there.
 
 *AI disclosure: I used an AI assistant to help organize this reflection. The experiences and lessons are from my own lab work.*
